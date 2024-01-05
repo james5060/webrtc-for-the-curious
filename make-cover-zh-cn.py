@@ -35,7 +35,7 @@ best = authors_by_contrib[0]
 
 convert_command="""convert -font WenQuanYi-Zen-Hei -fill black \
     -pointsize 160 -draw "text 480,340 'WebRTC'" \
-    -pointsize 90 -draw "text 660,550 '适合好奇的人'" \
+    -pointsize 90 -draw "text 660,550 '献给对新技术好奇的人'" \
 """
 
 convert_command+=f" -pointsize 60 -draw \"text 120,1780 '{best[0]}'\""
